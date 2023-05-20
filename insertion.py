@@ -14,7 +14,7 @@ def insertion_sort(array):
         key = array[index]
 
         # De search_index is de index van het getal waarmee de key vergeleken wordt
-        search_index = 0
+        search_index = index - 1
 
         # Herhaal de volgende opdrachten zolang er getallen voor de key zijn en de key kleiner is dan het getal waar we mee vergelijken
         while search_index >= 0 and key < array[search_index]:
